@@ -1,0 +1,65 @@
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 50px;
+}
+.info-container {
+  background-color: #ffffff;
+  padding: 40px;
+  min-height: 90vh;
+}
+.main-heading {
+  text-align: center;
+  font-size: 21px;
+}
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 40px;
+  }
+}
+.fruits-count {
+  color: #ffd569;
+}
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .fruits-container {
+    flex-direction: row;
+  }
+}
+.fruit-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+@media (min-width: 768px) {
+  .fruit-card {
+    width: 35%;
+  }
+}
+
+.fruit-image {
+  width: 70%;
+}
+
+@media (min-width: 768px) {
+  .fruit-image {
+    width: 100%;
+  }
+}
+.eat-button {
+  background-color: #007bff;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  padding: 8px;
+  margin-top: 30px;
+  border-width: 0px;
+}
